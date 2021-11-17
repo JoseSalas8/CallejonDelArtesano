@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallejonDelArtesano</string>
+    <string name="TituloOfertas">Deals of the day</string>
+    <string name="vermas">See more</string>
+
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="nombre" translatable="false">Name</string>
+    <string name="confrimar" translatable="false">Confirm</string>
+    <string name="inicia_sesi_n" translatable="false">Login</string>
+    <string name="crear_una_cuenta" translatable="false">Create an account</string>
+    <string name="inicar_sesion" translatable="false">login</string>
+    <string name="iniciar_sesion" translatable="false">Login</string>
+
+
+    <string-array name="metodo">
+        <item> Credt card</item>
+        <item> Debit</item>
+        <item> Paypal</item>
+        <item> Cash </item>
+        <item> QR </item>
+    </string-array>
+
+<string name="Especificaciones_text" translatable="false"> ◘ Lead-free ceramics. \n◘ Designed by Sue Zipping.
+        \n◘ Hand-painted ceramic tableware.
+        \n◘ Suitable for microwave
+        \n◘ Includes: set/3 dinner plates and 6 dinner plates
+        \n◘ Dishwasher safe
+        \n◘ Color: Brown, White, Bone</string>
+<string name="somos" translatable="false">The artisans alley is a dedicated platform for artisans, where you can make sales of the crafts you have. All this being feasible in one place. We also have an encrypted security. </string>
+    <string name="se_realizar_en_la_tarjeta">To be performed on the card:</string>
+    <string name="cuadro_de_gato">Cat box</string>
+    <string name="ahora_3_500">Now $3,500</string>
+    <string name="ver">See</string>
+    <string name="cuadro_del_amor_colorido">Colorful love picture</string>
+    <string name="ahora_400" translatable="false"> Now 400</string>
+    <string name="verr">See</string>
+    <string name="tu_carrito_tiene">Your cart has:</string>
+    <string name="cancelar">Cancel</string>
+    <string name="comfirmar">Confirm </string>
+    <string name="contactanos">Contact us</string>
+    <string name="mis_pedidos">My orders</string>
+    <string name="finalizarr">Finish</string>
+    <string name="qui_nes_somos">Who are we?</string>
+    <string name="aceptamos_tarjeta">We accept credit cards</string>
+    <string name="tarjetas">Cards</string>
+    <string name="seleccione_un_tipo_de_pago">Select a payment type:</string>
+    <string name="tarjetas_de_d_bito_y_cr_dito">Debit and credit cards</string>
+    <string name="cuenta_paypal">PayPal account</string>
+    <string name="pago_por_efectivo">Payment by cash</string>
+    <string name="escanea_y_paga_desde_tu_celular">SCAN AND PAY FROM YOUR CELL PHONE</string>
+    <string name="carritoo">Cart</string>
+    <string name="mis_pedidoss">My orders</string>
+    <string name="promocioness">Promotions</string>
+    <string name="formas_de_pagos">Methods of payment</string>
+    <string name="sobre_nosotros">About us</string>
+    <string name="perfil">Profile</string>
+    <string name="cerrar_sesion">Log out</string>
+    <string name="precio">Price</string>
+    <string name="a_adir_al_carritoo">Add to cart</string>
+    <string name="comprar_ahora">Buy Now</string>
+    <string name="detalles">Details</string>
+    <string name="contactanoss">Contact us</string>
+    <string name="carriito">Cart</string>
+    <string name="promoociones">Promotions</string>
+    <string name="pagos">Payments</string>
+    <string name="lenguaje">Language</string>
+
+
+</resources>

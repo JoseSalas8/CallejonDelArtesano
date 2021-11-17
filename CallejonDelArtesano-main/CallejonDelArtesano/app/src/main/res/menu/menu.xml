@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/carriito"
+        android:id="@+id/carrito"/>
+    <item
+        android:title="@string/promoociones"
+        android:id="@+id/pro"/>
+    <item
+        android:title="@string/pagos"
+        android:id="@+id/pagos"/>
+    <item
+        android:title="@string/lenguaje"
+        android:id="@+id/leng"/>
+
+</menu>

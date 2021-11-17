@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/conta_background.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/conta_foreground.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/home_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/icon_carrito.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/icon_shoppingvacio.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/log_out_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/menu_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/nosotros_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/payment_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/perfil_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/promocion_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/promociones_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/seacrh_icon.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/splashscreen.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout-land/activity_pantalla_principal.xml" value="0.12" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_informacion_producto.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_articulos_destacados.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_carrito.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_confirmar_venta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_contacto_social.xml" value="0.22" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_pre_venta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_tajetas.xml" value="0.1" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_tipos_de_pagos.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_principal.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_qr.xml" value="0.22" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/conta.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/conta_round.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

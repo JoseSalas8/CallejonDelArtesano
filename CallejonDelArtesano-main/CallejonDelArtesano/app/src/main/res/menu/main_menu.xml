@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+<!--        <item android:id="@+id/nav_perfil"-->
+<!--            android:title="Perfil"-->
+<!--            android:icon="@drawable/perfil_icon"/>-->
+
+        <item android:id="@+id/nav_carrito"
+            android:title="@string/carritoo"
+            android:icon="@drawable/icon_carrito"/>
+
+        <item android:id="@+id/nav_pedidos"
+            android:title="@string/mis_pedidoss"
+            android:icon="@drawable/promocion_icon"/>
+
+        <item android:id="@+id/nav_promociones"
+            android:title="@string/promocioness"
+            android:icon="@drawable/promociones_icon"/>
+        <item android:id="@+id/nav_formas_pago"
+            android:title="@string/formas_de_pagos"
+            android:icon="@drawable/payment_icon"/>
+
+        <item android:id="@+id/nab_nosotrs"
+            android:title="@string/sobre_nosotros"
+            android:icon="@drawable/nosotros_icon"/>
+
+        <item android:id="@+id/nab_contacto"
+            android:title="@string/contactanoss"
+            android:icon="@drawable/nosotros_icon"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/perfil">
+            <menu>
+                <item android:id="@+id/nav_cerrarsesion"
+                    android:title="@string/cerrar_sesion"
+                    android:icon="@drawable/log_out_icon"/>
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

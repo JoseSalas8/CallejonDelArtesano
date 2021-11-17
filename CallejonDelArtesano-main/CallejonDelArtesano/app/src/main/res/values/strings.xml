@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">CallejonDelArtesano</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Cotnraseña</string>
+    <string name="nombre" translatable="false">Nombre</string>
+    <string name="confrimar" translatable="false">Confrimar</string>
+    <string name="inicia_sesi_n" translatable="false">Inicia sesión</string>
+    <string name="crear_una_cuenta" translatable="false">Crear una cuenta</string>
+    <string name="inicar_sesion" translatable="false">Inicar sesion</string>
+    <string name="iniciar_sesion" translatable="false">Iniciar sesión</string>
+
+    <string name="navigation_drawer_open" translatable="false">Se abre el menú</string>
+    <string name="navigation_drawer_close" translatable="false">Se cierra el menú</string>
+
+    <string-array name="metodo">
+        <item> Tarjeta de Crédito</item>
+        <item> Tajeta de Débito</item>
+        <item> Paypal</item>
+        <item> Efectivo </item>
+        <item> QR </item>
+
+    </string-array>
+    <string name="Especificaciones_text" translatable="false"> ◘ Cerámica sin plomo. \n◘ Diseñado por Sue Zipping.
+        \n◘ Vajilla de cerámica pintada a mano.
+        \n◘ Apto para microondas
+        \n◘ Incluye: juego/3 platos llanos y 6 platos ondos
+        \n◘ Apto para lavavajillas
+        \n◘ Color: Cafe, Blanco, Hueso</string>
+    <string name="somos" translatable="false">El callejón del artesano es una plataforma dedicada para los artesanos, dentro de la cual usted podrá realizar ventas de las artesanias con las que cuenta. Todo esto siendo factible en un solo lugar. Además contamos con una seguridad en encriptación.</string>
+    <string name="TituloOfertas">Ofertas del día</string>
+    <string name="vermas">Ver más</string>
+    <string name="se_realizar_en_la_tarjeta">Se realizará en la tarjeta:</string>
+    <string name="cuadro_de_gato">Cuadro de gato</string>
+    <string name="ahora_3_500">Ahora $3,500</string>
+    <string name="ver">Ver</string>
+    <string name="cuadro_del_amor_colorido">Cuadro del amor colorido</string>
+    <string name="ahora_400">Ahora $400</string>
+    <string name="verr">Ver</string>
+    <string name="tu_carrito_tiene">Tu carrito tiene:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="comfirmar">Comfirmar</string>
+    <string name="contactanos">Contactanos</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+    <string name="finalizarr">Finalizar</string>
+    <string name="qui_nes_somos">¿Quiénes somos?</string>
+    <string name="aceptamos_tarjeta">Aceptamos tarjeta</string>
+    <string name="tarjetas">Tarjetas</string>
+    <string name="seleccione_un_tipo_de_pago">Seleccione un tipo de pago</string>
+    <string name="tarjetas_de_d_bito_y_cr_dito">Tarjetas de débito y crédito</string>
+    <string name="cuenta_paypal">Cuenta PayPal</string>
+    <string name="pago_por_efectivo">Pago por efectivo</string>
+    <string name="escanea_y_paga_desde_tu_celular">ESCANEA Y PAGA DESDE TU CELULAR</string>
+    <string name="carritoo">Carrito</string>
+    <string name="mis_pedidoss">Mis pedidos</string>
+    <string name="promocioness">Promociones</string>
+    <string name="formas_de_pagos">Formas de pago</string>
+    <string name="sobre_nosotros">Sobre nosotros</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="precio">Precio</string>
+    <string name="a_adir_al_carritoo">Añadir al carrito</string>
+    <string name="comprar_ahora">Comprar Ahora</string>
+    <string name="detalles">Detalles</string>
+    <string name="contactanoss">Contactanos</string>
+    <string name="carriito">Carrito</string>
+    <string name="promoociones">Promociones</string>
+    <string name="pagos">Pagos</string>
+    <string name="lenguaje">Lenguaje</string>
+</resources>
