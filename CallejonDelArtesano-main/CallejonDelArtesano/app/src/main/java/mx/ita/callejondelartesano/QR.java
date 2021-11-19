@@ -31,7 +31,7 @@ public class QR extends AppCompatActivity {
             public void onClick(View view) {
 
                 IntentIntegrator intentIntegrator  = new IntentIntegrator(QR.this);
-                intentIntegrator.setPrompt("For flash use volumen up key");
+                intentIntegrator.setPrompt("For flash use volumen up key!!!");
 
                 intentIntegrator.setBeepEnabled(true);
 
@@ -71,7 +71,7 @@ public class QR extends AppCompatActivity {
 
             builder.show();
         } else{
-            Toast.makeText(getApplicationContext(), "OOPS... You did not san anything",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "OOPS... You did not SCAN anything!!!",Toast.LENGTH_SHORT).show();
         }
     }
 }
