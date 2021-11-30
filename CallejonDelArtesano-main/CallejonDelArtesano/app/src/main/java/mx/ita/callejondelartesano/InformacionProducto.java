@@ -6,8 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
@@ -74,7 +72,7 @@ public class InformacionProducto extends AppCompatActivity implements Navigation
         toggle.syncState();
 
         button = (Button) findViewById(R.id.button1);//comprar ahora
-        button2 = (Button) findViewById(R.id.button2);//Añadir Carrito
+        button2 = (Button) findViewById(R.id.INGRESAR);//Añadir Carrito
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

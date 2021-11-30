@@ -13,5 +13,8 @@
     <item
         android:title="@string/lenguaje"
         android:id="@+id/leng"/>
+    <item
+        android:title="@string/cerrar_sesion"
+        android:id="@+id/cerrar"/>
 
 </menu>

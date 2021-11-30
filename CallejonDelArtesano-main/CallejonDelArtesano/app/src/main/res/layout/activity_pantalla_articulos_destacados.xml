@@ -79,7 +79,7 @@
                         android:layout_marginTop="12dp"
                         android:text="@string/ahora_3_500"
                         android:textSize="20dp"
-                        app:layout_constraintBottom_toTopOf="@+id/button2"
+                        app:layout_constraintBottom_toTopOf="@+id/INGRESAR"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.577"
                         app:layout_constraintStart_toStartOf="parent"
