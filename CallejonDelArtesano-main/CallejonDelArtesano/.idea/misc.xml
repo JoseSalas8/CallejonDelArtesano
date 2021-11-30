@@ -55,10 +55,15 @@
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/conta_round.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jazto/OneDrive/Documentos/GitHub/CallejonDelArtesano/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_informacion_producto.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/OneDrive/Documentos/GitHub/CallejonDelArtesano/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/jazto/OneDrive/Documentos/GitHub/CallejonDelArtesano/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/OneDrive/Documentos/GitHub/CallejonDelArtesano/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jazto/OneDrive/Documentos/GitHub/CallejonDelArtesano/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/search.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

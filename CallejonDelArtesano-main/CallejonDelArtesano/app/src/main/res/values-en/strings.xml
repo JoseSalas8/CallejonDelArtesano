@@ -66,6 +66,7 @@
     <string name="promoociones">Promotions</string>
     <string name="pagos">Payments</string>
     <string name="lenguaje">Language</string>
+    <string name="buttongoogle">LOGIN WITH GOOGLE</string>
 
 
 </resources>
