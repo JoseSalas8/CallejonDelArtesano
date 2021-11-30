@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">CallejonDelArtesano</string>
     <string name="email" translatable="false">Email</string>
-    <string name="password" translatable="false">Cotnraseña</string>
+    <string name="password" translatable="false">Contraseña</string>
     <string name="nombre" translatable="false">Nombre</string>
-    <string name="confrimar" translatable="false">Confrimar</string>
+    <string name="confrimar" translatable="false">Confirmar</string>
     <string name="inicia_sesi_n" translatable="false">Inicia sesión</string>
     <string name="crear_una_cuenta" translatable="false">Crear una cuenta</string>
-    <string name="inicar_sesion" translatable="false">Inicar sesion</string>
+    <string name="inicar_sesion" translatable="false">Iniciar sesión</string>
     <string name="iniciar_sesion" translatable="false">Iniciar sesión</string>
+    <string name="buttongoogle" translatable="false">INGRESAR CON GOOGLE</string>
 
     <string name="navigation_drawer_open" translatable="false">Se abre el menú</string>
     <string name="navigation_drawer_close" translatable="false">Se cierra el menú</string>
@@ -66,4 +67,5 @@
     <string name="promoociones">Promociones</string>
     <string name="pagos">Pagos</string>
     <string name="lenguaje">Lenguaje</string>
+  <!--  <string name="default_web_client_id" translatable="false">1026168521465-l86p4u1omdpduui1n452l0nv0bh3dh1v.apps.googleusercontent.com</string> -->
 </resources>

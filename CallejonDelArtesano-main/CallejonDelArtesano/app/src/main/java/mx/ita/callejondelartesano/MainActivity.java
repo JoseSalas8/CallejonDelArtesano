@@ -4,15 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     public Button button;
     public Button buttonCrearCuenta;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
+
         try {
             Thread.sleep(800);
         } catch (InterruptedException e) {
@@ -31,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonCrearCuenta = (Button) findViewById(R.id.button2);
+        buttonCrearCuenta = (Button) findViewById(R.id.INGRESAR);
         buttonCrearCuenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void ArrancarInicioSesion(){
-        Intent intent = new Intent(this, IniciarSesion.class);
+        Intent intent = new Intent(this, activity_Login.class);
         startActivity(intent);
     }
     public void ArrancarCrearCuenta(){

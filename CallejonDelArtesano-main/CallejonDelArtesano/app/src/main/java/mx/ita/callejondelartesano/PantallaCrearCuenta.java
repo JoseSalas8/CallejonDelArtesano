@@ -1,9 +1,11 @@
 package mx.ita.callejondelartesano;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,6 +18,14 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,6 +33,10 @@ import java.util.Map;
 public class PantallaCrearCuenta extends AppCompatActivity {
     EditText editnombre, editemail, editpass;
     Button buttonAgregar;
+
+    FirebaseAuth firebaseAuth;
+    DatabaseReference databaseReference;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,12 +48,64 @@ public class PantallaCrearCuenta extends AppCompatActivity {
 
         buttonAgregar=(Button)findViewById(R.id.buttonAgregarusuario);
 
+        firebaseAuth = FirebaseAuth.getInstance();
+
         buttonAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 //                Toast toast = Toast.makeText( getApplicationContext(),editnombre.getText().toString(), Toast.LENGTH_SHORT);
 //                toast.show();
-                ejecutarServicio("https://callejonwebservices.herokuapp.com/insertarUsuario.php");
+ //               ejecutarServicio("https://callejonwebservices.herokuapp.com/insertarUsuario.php");
+                String email = editemail.getText().toString();
+                String pass = editpass.getText().toString();
+
+                if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    editemail.setError("Correo no válido");
+                    editemail.setFocusable(true);
+                }
+                else {
+                    REGISTRAR(email,pass);
+                }
+            }
+        });
+    }
+
+    // Método para registrar usuario con correo
+    private void REGISTRAR(String email, String pass) {
+        firebaseAuth.createUserWithEmailAndPassword(email,pass)
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            FirebaseUser user = firebaseAuth.getCurrentUser();
+                            assert user != null;
+                            String uid = user.getUid();
+                            String email = editemail.getText().toString();
+                            String pass = editpass.getText().toString();
+                            String nombre = editnombre.getText().toString();
+
+                            HashMap<Object, String> DatosUsuario = new HashMap<>();
+                            DatosUsuario.put("uid", uid);
+                            DatosUsuario.put("nombre",nombre);
+                            DatosUsuario.put("email", email);
+                            DatosUsuario.put("pass", pass);
+
+                            FirebaseDatabase database = FirebaseDatabase.getInstance();
+                            DatabaseReference reference = database.getReference("USUARIOS_APP");
+                            reference.child(uid).setValue(DatosUsuario);
+                            Toast.makeText(PantallaCrearCuenta.this, "Se registró exitosamente"
+                            , Toast.LENGTH_SHORT).show();
+
+                            startActivity(new Intent(PantallaCrearCuenta.this,PantallaPrincipal.class));
+                        } else{
+                            Toast.makeText(PantallaCrearCuenta.this, "Algo ha salido mal"
+                            , Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(PantallaCrearCuenta.this, e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/boton_personalizado_g.xml" value="0.2203125" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout-land/activity_pantalla_principal.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_busqueda.xml" value="0.1" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_carrito.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_contacto_social.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_crear_cuenta.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/layout/activity_principal.xml" value="0.18" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/main_menu.xml" value="0.18" />
+        <entry key="..\:/Users/Jose/Desktop/callejondel/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/conta_background.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/conta_foreground.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/jazto/AndroidStudioProjects/CallejonDelArtesano-main/CallejonDelArtesano/app/src/main/res/drawable/home_icon.xml" value="0.11302083333333333" />
@@ -44,7 +58,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
